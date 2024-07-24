@@ -8,7 +8,6 @@ import proxy from './build/vite/proxy';
 export default defineConfig((): UserConfig => {
   const isBuild = process.env.NODE_ENV === 'production';
   return {
-    base: './',
     resolve: {
       // https://cn.vitejs.dev/config/#resolve-alias
       alias: {
